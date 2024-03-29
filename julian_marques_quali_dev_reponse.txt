@@ -1,0 +1,51 @@
+Question 1.
+Commande:
+
+git branch
+
+il y en a 3:
+  json
+* main
+  pom_xml
+
+
+
+Question 2.
+Commande:
+git log 
+
+Reponse:
+commit a837885097f1d462914a77d0e7b9a0135e5ac7ed
+Author: Joaquin "Joe" Lapin <Jo.Lapin@univ-hochmoehrefelder.fr>
+Date:   Sun Mar 24 11:29:35 2024 +0100
+
+    Version initiale avec maven
+
+le premier commit est celui ci dessus, il a été fait le 24 mars 2024
+
+
+
+Question 3.
+pom_xml et master
+Commande:
+git merge-base pom_xml main
+
+Reponse:
+f8c7c79e662cc640e4fc8e86605508720e958ef3
+
+master et json
+Commande:
+git merge-base main json
+
+Reponse:
+
+81837de83fe6e917756205c77a7d03e6caf422e3
+
+
+Question 4.
+        :   target/classes/fr/univ_orleans/iut45/menus/App.class
+        :   target/classes/fr/univ_orleans/iut45/menus/Menu.class
+        :   target/classes/fr/univ_orleans/iut45/menus/Plat.class
+        :   target/test-classes/fr/univ_orleans/iut45/menus/AppTest.class
+        :    target/test-classes/fr/univ_orleans/iut45/menus/JsonTests.class
+
